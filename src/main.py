@@ -3,8 +3,8 @@ import os
 import boto3
 from dotenv import load_dotenv
 
-from bot.src.config import get_client
-from bot.src.dailyjobs import get_new_jobs_posted_today, tweet_jobs_posted_today
+from src.config import get_client
+from src.dailyjobs import get_new_jobs_posted_today, tweet_jobs_posted_today
 
 load_dotenv()
 

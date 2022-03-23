@@ -3,7 +3,7 @@ from typing import Any, List
 
 import pandas as pd
 
-from bot.src.config import get_client
+from src.config import get_client
 
 
 def post_random_tweet(tweets: List, client: Any):
