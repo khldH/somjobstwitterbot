@@ -34,4 +34,4 @@ jobs:
       
       
       - name: Execute Python script # Run the app.py
-        run: python random_tweet.py
+        run: python src.random_tweet.py
