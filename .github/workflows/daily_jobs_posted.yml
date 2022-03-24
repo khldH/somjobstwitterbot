@@ -1,4 +1,4 @@
-name: post_new_job_tweet
+name: tweet_new_job
 
 on:
   workflow_dispatch:
