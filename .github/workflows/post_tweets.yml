@@ -3,7 +3,7 @@ name: post_tweets
 on:
   workflow_dispatch:
   schedule:
-  - cron:  "0 11,20 * * *"
+  - cron:  "0 8,17 * * *"
 
 jobs:
   build:
